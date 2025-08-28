@@ -2,7 +2,7 @@ import React from 'react'
 import { auth } from './auth'
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
-
+//Chaitu
 const HomePage = async() => {
   const response = await auth();
 
