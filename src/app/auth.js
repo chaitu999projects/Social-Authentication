@@ -12,5 +12,6 @@ export const {auth, handlers:{GET, POST}} = NextAuth({
             clientId: process.env.AUTH_GOOGLE_ID,
             clientSecret:process.env.AUTH_GOOGLE_SECRET
         })
-    ], secret: process.env.SECRET_NAME
+    ], secret: process.env.SECRET_NAME,
+    trustHost:true
 })
